@@ -30,6 +30,7 @@ module.exports = {
         return {
             style: data.style,
             label: data.label,
+            emoji: data.emoji,
             disabled: Boolean(data.disabled),
             url: data.url,
             custom_id: data.custom_id,
